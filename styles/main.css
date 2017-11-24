@@ -1,0 +1,106 @@
+body {
+  background-color: #ffffff;
+  color: #efb6ac;
+}
+
+header {
+  background-color: #efb6ac;
+  color: #ffffff;
+  padding : 6em;
+  position: relative;
+}
+
+section {
+  max-width: 46em;
+  margin: 0 auto;
+}
+
+
+header ::after{
+  background-color: #efb6ac;
+  content : " ";
+  display: block;
+  width: 120px;
+  height: 120px;
+  position:absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%) rotate(45deg);
+}
+
+
+
+.linklist {
+  list-style-type: none;
+}
+
+.linklist li {
+  margin: 2em;
+}
+
+.linklist a {
+  color: #fff;
+}
+
+
+.nastyadvert {
+  background-color: #ffffff;
+  min-height: 90vh;
+  background-image: url(mont_fitzroy.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+.nastyadvert h1 {
+  font-size: 4em;
+font-family: 'Patua One', cursive;
+text-align: center;
+text-shadow: 1px 1px 2px black;
+color: white;
+}
+
+.mywork ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+
+
+.mywork li {
+width: 25%;
+margin: 1em;
+}
+
+.mywork img {
+  width: 100%;
+}
+
+
+
+
+footer {
+  background-color: #efb6ac;
+  color: #ffffff;
+  padding : 2em;
+  position: relative;
+}
+
+footer::before {
+  background-color: #efb6ac;
+  content : " ";
+  display: block;
+  width: 120px;
+  height: 120px;
+  position:absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-80%);
+  border-radius: 100%;
+}
