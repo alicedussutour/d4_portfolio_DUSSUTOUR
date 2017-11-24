@@ -24,8 +24,8 @@ header {
 }
 
 section {
-  max-width: 46em;
-  margin: 0 auto;
+  
+  padding: 2em;
 }
 
 
@@ -58,6 +58,36 @@ section {
   display: block;
   padding : 1em;
   float: right;
+}
+
+
+#portfolio {
+
+}
+
+.portfolio-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.portfolio-content-item {
+  border: 2px solid #334444;
+  max-width: 480px;
+  margin : 20px;
+  position : relative;
+}
+
+.portfolio-content-item h2 {
+  position: absolute;
+  top : 50%;
+  left : 50%;
+  border: 1px solid red;
+}
+
+.portfolio-content-item img {
+  width : 100%;
 }
 
 
