@@ -4,28 +4,95 @@ body {
 }
 
 header {
-  background-color: #efb6ac;
-  color: #ffffff;
-  padding : 6em;
-  position: relative;
+  min-height: 80vh;
+  background-image: url('header.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-content-block {
+  background: rgba(170,170,170,0.6);
+  padding : 22px;
+  text-align: center;
+}
+
+.header-content-block h1 {
+  font-size: 4.25em;
 }
 
 section {
-  max-width: 46em;
-  margin: 0 auto;
+  
+  padding: 2em;
 }
 
 
-header ::after{
-  background-color: #efb6ac;
-  content : " ";
+#comp {
+  background-color: #fff;
+  color : #fff;
+}
+
+.comp-section-content {
+ display: flex;
+ justify-content: space-around;
+}
+
+.comp-content {
+  background-color: #334444;
+  width : auto;
+  margin : 20px;
+}
+
+.comp-content p {
+  padding: 1em;
+
+}
+
+.comp-content img {
+  width : 100%;
+}
+
+.comp-content a {
   display: block;
-  width: 120px;
-  height: 120px;
-  position:absolute;
-  left: 50%;
-  transform: translateX(-50%) translateY(50%) rotate(45deg);
+  padding : 1em;
+  float: right;
 }
+
+
+#portfolio {
+
+}
+
+.portfolio-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.portfolio-content-item {
+  border: 2px solid #334444;
+  max-width: 480px;
+  margin : 20px;
+  position : relative;
+}
+
+.portfolio-content-item h2 {
+  position: absolute;
+  top : 50%;
+  left : 50%;
+  border: 1px solid red;
+}
+
+.portfolio-content-item img {
+  width : 100%;
+}
+
+
+
+
 
 
 
@@ -41,28 +108,6 @@ header ::after{
   color: #fff;
 }
 
-
-.nastyadvert {
-  background-color: #ffffff;
-  min-height: 90vh;
-  background-image: url(mont_fitzroy.jpg);
-  background-size: cover;
-  background-position: center top;
-  background-attachment: fixed;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
-
-
-.nastyadvert h1 {
-  font-size: 4em;
-font-family: 'Patua One', cursive;
-text-align: center;
-text-shadow: 1px 1px 2px black;
-color: white;
-}
 
 .mywork ul{
   list-style-type: none;
