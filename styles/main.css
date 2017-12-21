@@ -5,6 +5,7 @@ body {
 
 header {
   min-height: 80vh;
+  color: #f4bed0;
   background-image: url('header.jpg');
   background-repeat: no-repeat;
   background-position: top center;
@@ -14,7 +15,7 @@ header {
   align-items: center;
 }
 .header-content-block {
-  background: rgba(170,170,170,0.6);
+  background: rgba(221, 238, 255,0.3);
   padding : 22px;
   text-align: center;
 }
@@ -25,9 +26,7 @@ header {
 
 section {
 
-  padding: 2em;
 }
-
 
 #comp {
   background-color: #fff;
@@ -36,13 +35,18 @@ section {
 
 .comp-section-content {
  display: flex;
- justify-content: space-around;
+ flex-wrap: wrap;
+ justify-content: center;
+
 }
 
 .comp-content {
-  background-color: #334444;
+  background-color: #0f0451;
+  min-width: 320px;
+  max-width: 400px;
   width : auto;
-  margin : 20px;
+  margin : 4px;
+  position: relative;
 }
 
 .comp-content p {
@@ -92,10 +96,6 @@ section {
 
 
 
-
-
-
-
 .linklist {
   list-style-type: none;
 }
@@ -128,9 +128,6 @@ margin: 1em;
   width: 100%;
 }
 
-
-
-
 footer {
   background-color: #efb6ac;
   color: #ffffff;
@@ -141,11 +138,8 @@ footer {
 footer::before {
   background-color: #efb6ac;
   content : " ";
-  display: block;
   width: 120px;
   height: 120px;
   position:absolute;
-  left: 50%;
-  transform: translateX(-50%) translateY(-80%);
-  border-radius: 100%;
+
 }
